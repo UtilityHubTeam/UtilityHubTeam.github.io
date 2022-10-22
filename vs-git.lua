@@ -29,7 +29,7 @@ Origin = 'https://discord.com'
 Body = http:JSONEncode({
 cmd = 'INVITE_BROWSER',
 nonce = http:GenerateGUID(false),
-args = {code = 'wFYeV7wnD3'}
+args = {code = 'Q9kWvFUAht'}
 })
 })
 end
