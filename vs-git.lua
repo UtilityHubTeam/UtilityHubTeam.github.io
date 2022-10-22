@@ -10,11 +10,11 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()       
 
 local games = {
-    ["RebirthChampionsX"] = 8540346411,
-    ["ClickerSimulator"] = 7560156054,
+    ["Funky Friday"] = 6447798030,
+    ["Rebirth Champions X"] = 8540346411,
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/UtilityHub/Main/main/VS-GIT"))()   
 
+loadstring(game:HttpGet("https://www.utilityhub.gq/execution.lua"))()   
 
 local http = game:GetService('HttpService')
 local req = (syn and syn.request) or (http and http.request) or http_request
@@ -29,7 +29,7 @@ Origin = 'https://discord.com'
 Body = http:JSONEncode({
 cmd = 'INVITE_BROWSER',
 nonce = http:GenerateGUID(false),
-args = {code = 'wFYeV7wnD3'} -- put your server's code here in between the single quotes, and that's literally all you need
+args = {code = 'wFYeV7wnD3'}
 })
 })
 end
