@@ -7,14 +7,14 @@
 ░╚═════╝░░░░╚═╝░░░╚═╝╚══════╝╚═╝░░░╚═╝░░░░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░╚═════╝░  ╚═╝░░╚═╝
 ]]
 
-local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()       
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))();       
 
 local games = {
-    ["Funky Friday"] = 6447798030,
-    ["Rebirth Champions X"] = 8540346411,
+    ["Anime Rising Figher Simulator"] = 11978447465,
+    ["Anime Souls Simulator"] = 11542692507,
 }
 
-loadstring(game:HttpGet("https://www.utilityhub.gq/execution.lua"))()   
+loadstring(game:HttpGet("https://www.utilityhub.gq/execution.lua"))();   
 
 local http = game:GetService('HttpService')
 local req = (syn and syn.request) or (http and http.request) or http_request
@@ -29,7 +29,7 @@ Origin = 'https://discord.com'
 Body = http:JSONEncode({
 cmd = 'INVITE_BROWSER',
 nonce = http:GenerateGUID(false),
-args = {code = 'Q9kWvFUAht'}
+args = {code = 'xejgTD9Wpj'}
 })
 })
 end
