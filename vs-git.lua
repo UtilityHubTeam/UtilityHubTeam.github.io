@@ -12,7 +12,6 @@ local keysystem = {
 }
 
 loadstring(game:HttpGet("https://www.utilityhub.gq/execution.lua"))();
-
 end
    
 -- Credits: Sand Dog#5240 / ! Sunn#5342
