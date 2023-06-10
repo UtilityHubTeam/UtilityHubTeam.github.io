@@ -1,0 +1,12 @@
+_G.key = ""
+
+local securedkey = {"bxuXzEjcW4qZkQ8r3h9MGTSfpBD6t5LHgARY2dwnme7JNyvFsa"}
+
+
+for i, v in pairs(securedkey) do
+   if _G.key == v then
+       https://www.utilityhub.gq/utilityhub.lua
+       else 
+       print("invalid key")
+    end 
+end
